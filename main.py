@@ -24,6 +24,9 @@ form = """<!DOCTYPE html>
         </style>
     </head>
     <body>
+        <form action="/rotate" method="post">
+            <input type="text" name="rot" />
+            <input type="submit" name="text" value="Submit Query" />
       <!-- create your form here -->
     </body>
 </html>
