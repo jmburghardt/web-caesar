@@ -34,6 +34,6 @@ form = """<!DOCTYPE html>
 
 @app.route("/")
 def index():
-    return "Hello World"
+    return form
 
 app.run()
